@@ -1,0 +1,31 @@
+.controller {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.controller button {
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: 1px solid #4ebfc9;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 6px;
+  outline: none;
+  width: 85px;
+  height: 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  margin: 15px;
+  text-transform: uppercase;
+}
+
+.controller button:hover {
+  cursor: pointer;
+  background-color: #4ebfc9;
+}
